@@ -1,7 +1,8 @@
 import './App.css';
 import HeliaPrueba from './helia';
 import HeliaImage from './HeliaImage';
-
+import IPFSPrueba from './ipfs';
+import UploadNFTStorage from './NFTSTORAGE';
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <HeliaPrueba />
+        {/* <HeliaPrueba /> */}
         {/* <HeliaImage /> */}
+        {/* < IPFSPrueba /> */}
+        < UploadNFTStorage />
         Learn React
       </header>
     </div >
